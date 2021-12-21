@@ -21,11 +21,11 @@ class Motorbike{
         private String color ;
         private int release;
 
-        public Motorbike (String model, String color){
+        Motorbike (String model, String color){
             this.model = model;
             this.color = color;
         }
-        public Motorbike(String model, String color, int release){
+        Motorbike(String model, String color, int release){
             this.model = model;
             this.color = color;
             this.release = release;
