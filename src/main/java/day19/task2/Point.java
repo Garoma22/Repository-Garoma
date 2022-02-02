@@ -8,8 +8,8 @@ class Point {
     private final int y;
 
     public Point(int x, int y) {
-        this.x = x;
-        this.y = y;
+       this.x = x;
+       this.y = y;
     }
 
     public int getX() {
@@ -36,5 +36,13 @@ class Point {
         int result = x;
         result = 31 * result + y;
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Point{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
     }
 }
